@@ -68,7 +68,7 @@ uiddata.add("SELECT UID");
                     String name=s.getName();
                             String city=s.getCity();
 
-                    Toast.makeText(MainActivity.this,uid + city + name,Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"UID: " + uid + " \n city : "+ city +" \n Name : " + name,Toast.LENGTH_LONG).show();
                 }
 
             }
