@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpinnerDemoActivity">
+
+    <EditText
+
+        android:id="@+id/txtUid"
+
+        android:hint="UID.."
+
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:id="@+id/txtSname"
+
+        android:hint="Name.."
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:id="@+id/txtMobile"
+
+        android:hint="Mobile Number.."
+
+        android:inputType="number"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+
+        android:id="@+id/btnAdd"
+
+        android:text="Register Student"
+
+        android:layout_gravity="center"
+
+        android:textAllCaps="false"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content" />
+
+
+
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/spinner"
+       />
+
+
+
+    <TextView
+
+        android:id="@+id/txtResult"
+
+        android:layout_marginTop="20dp"
+
+        android:textColor="#000000"
+
+        android:textSize="20dp"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
